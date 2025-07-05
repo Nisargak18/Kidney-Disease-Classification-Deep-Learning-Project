@@ -1,2 +1,482 @@
 [2025-07-02 12:10:49,766: INFO: main: Welcome to our custom log]
 [2025-07-03 10:42:02,380: INFO: main: Welcome to our custom log]
+[2025-07-05 12:50:41,818:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 12:50:41,834:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 12:55:32,418:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 12:55:32,421:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 12:56:05,887:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 12:56:05,903:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 12:57:46,985:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 12:57:47,013:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 12:57:47,019:INFO:common:created directory at: artifacts]
+[2025-07-05 12:57:47,021:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 12:57:47,021:INFO:986331348:Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:03:33,780:INFO:986331348:Downloaded data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:31:15,337: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 13:31:15,364: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-05 13:31:15,386: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-05 13:31:15,390: INFO: common: created directory at: artifacts]
+[2025-07-05 13:31:15,392: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-05 13:31:15,393: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:35:32,056: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:36:49,800: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-05 13:36:49,801: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 13:36:49,823: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-05 13:36:49,825: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-05 13:36:49,826: INFO: common: created directory at: artifacts]
+[2025-07-05 13:36:49,827: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-05 13:36:49,828: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:39:34,340: ERROR: main: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))]
+Traceback (most recent call last):
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 904, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 887, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kavya\miniconda3\Lib\http\client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "C:\Users\kavya\miniconda3\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\kavya\miniconda3\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\miniconda3\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 980, in read
+    data = self._raw_read(amt)
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kavya\miniconda3\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 806, in _error_catcher
+    raise ProtocolError(f"Connection broken: {e!r}", e) from e
+urllib3.exceptions.ProtocolError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 24, in <module>
+    obj.main()
+    ~~~~~~~~^^
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\requests\models.py", line 822, in generate
+    raise ChunkedEncodingError(e)
+requests.exceptions.ChunkedEncodingError: ("Connection broken: ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)", ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None))
+[2025-07-05 13:40:50,100: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 13:40:50,104: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-05 13:40:50,107: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-05 13:40:50,108: INFO: common: created directory at: artifacts]
+[2025-07-05 13:40:50,109: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-05 13:40:50,110: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:50:28,533: ERROR: main: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2648)]
+Traceback (most recent call last):
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 779, in _error_catcher
+    yield
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 904, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 887, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "C:\Users\kavya\miniconda3\Lib\http\client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "C:\Users\kavya\miniconda3\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\kavya\miniconda3\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\miniconda3\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ssl.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2648)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\requests\models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 1091, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 980, in read
+    data = self._raw_read(amt)
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 903, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kavya\miniconda3\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\urllib3\response.py", line 790, in _error_catcher
+    raise SSLError(e) from e
+urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2648)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 11, in <module>
+    data_ingestion.main()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\components\data_ingestion.py", line 32, in download_file
+    raise e
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\components\data_ingestion.py", line 27, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\gdown\download.py", line 368, in download
+    for chunk in res.iter_content(chunk_size=CHUNK_SIZE):
+                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kavya\AppData\Roaming\Python\Python313\site-packages\requests\models.py", line 828, in generate
+    raise RequestsSSLError(e)
+requests.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2648)
+[2025-07-05 13:51:47,127: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 13:51:47,130: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-05 13:51:47,133: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-05 13:51:47,134: INFO: common: created directory at: artifacts]
+[2025-07-05 13:51:47,135: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-05 13:51:47,136: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 13:58:46,862:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 13:58:46,866:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 13:58:46,869:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 13:58:46,871:INFO:common:created directory at: artifacts]
+[2025-07-05 13:58:46,872:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 13:58:46,873:INFO:data_ingestion:File already exists of size: ~ 1589252 KB]
+[2025-07-05 13:59:34,962:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-05 13:59:34,963:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 13:59:34,965:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 13:59:34,967:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 13:59:34,968:INFO:common:created directory at: artifacts]
+[2025-07-05 13:59:34,969:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 13:59:34,970:INFO:data_ingestion:File already exists of size: ~ 1589252 KB]
+[2025-07-05 14:00:32,503:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-05 16:10:06,315:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:10:06,362:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:10:06,362:INFO:common:created directory at: artifacts]
+[2025-07-05 16:10:06,377:INFO:common:created directory at: artifacts/prepare_base_model]
+[2025-07-05 16:10:18,958:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-05 16:10:19,339:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-05 16:30:55,226:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 16:30:55,226:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:30:55,241:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:30:55,241:INFO:common:created directory at: artifacts]
+[2025-07-05 16:30:55,241:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:30:59,324:INFO:data_ingestion:artifacts/data_ingestion/data.zip download: with following info: 
+ Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 05 Jul 2025 11:00:57 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
+Reporting-Endpoints: default="/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/web-reports?bl=apps-fileview.texmex_20250619.00_p0&app=15&clss=1&context=eJwVyn9czHccB_Db9z6fd1FX16lc6q6rpJIUY1Jn1EkRYuHy8FDzo0zRMlSSUMrSopnWTA8XV0nX-VGPPSZhRioeFWKshj0e0dAPmaJotJc_nn-8foxslOhMtSKjmVbkYa4V6aVa0Xa5VlQ5Tiva76EVDY_Xikw8tSJPL60ow0cr8s3VikIgcm2EKB5iUyNEKRA_vktIhPD2V8IKmBvaJyyGC7teC7VQtfu1UAPH4gaEk3BMPSichEMzBoVCGBkzKMjg8b5BoQsSb7wV0sBN9k7whvaid0InNA9_EO6BSjEsuIPptmFBCk_0n4i7wfaaIFbC4y_E4i7YvlsszoCjWWJxKRzvEIvLoW4EEzeDqNePmcKjfn_2D-wrULODkOA7gyVD8PBMFgbd2lmsH7aEBLBU8AoNYFPhYkYAawKPHwPYdBjqCWDiF_gYAtke8DAGskmwMUHDtkJ9oobdhOptGnYdbqdqWCtUntaw8yCp0jAbyPxFw3LBwnk2s4WbnkHsPkhjg5gcsjcFse8h5FIQWwSm9dg-eoodItfOYfFg2BzMauB0RjD7DdYsDWFxkDFqLssBd5N5zAeOjpzHSiEnXMd_gL1f6fgBKPxVx4tBtbSI-8Dh_iJ-DMJkx3kU6Kcd51Ugt9Zzd1hnp-dJcP6qnt8Au1o994ADdXpeAFYP0MHSXj1fCdMii3kwtGwo5m2Q9qSYZ0HsmhKeApn2pTwXxBdLuRm8rjjB34OXYxmfCt8tL-OHQFJQzm2g7Xk5b4e-znI-BP--L-dvoXeCgQ_A8oUGvgp2rDXwTJClGfgYmHvSwBfDQHYFH4bnuRX8LUR5Gvk6uB5j5K1w6IORF4N00SmugpbVp3gbNH19it8zdvJHYFjZxatgja6Lb4aXDV18EPo_7-b_QcGVbq6DBucefgvu_NzD_4LVl3t4LKgXv-KzQaTo41K4oDejRpBdMqOQNjNaAOHvzCgCDEfM6Qw0FZpTC3TXmlM_6J6Y0wmotZRQI2zbKKFs8DsnoUDI6ZJQHtimW5ASGvdb0F3wv2ZBGmiKsaQW-OOoJT2EHR2WVF4ipUrwH5TSLLAZkpIr9AVa0RB0rrCiVxCfZkVpUFNpRVfhhr-MbsKIOTKyAEOqjM5AdJs1bYX2B9bUCVk91pQDlnttaDRcuWBD9aC4Y0uu8OyuLb2EpAe2tBPiN4ymRDirklM1ODrLyRuSQ-W0C-Ky5ZQAJj_JyRwajHK6BXln5JQP8_V2tASq9o2hGpizyp4WwoRYe5oCm7LsKREi8uzpSyjb6UBGqEp3oHNQV-1AzZD91IEOw05BQXvAqFTQRShcpqAKeHNWQUOQe1tB-aDrUFAxxFgoKQ5CXZQUDmFjlbQEticqKQMWVChJ3auk2fCn0pEeQr2LI92HlPmOlA4ZMY70LQyRisQmKprpq6JgGBGromfNKuqBg0VOVABFpU5UAr5lThQCpt7OJIVPDc7kD8EfnCkM8se7kBH8hlxo5kd8LAWDd-RYOpDgSgUw4RtXmgIpRldKhySxGz1c7kYdIMl0I6tWN7IDByt3coLqle70O1wucqcGeFHiTm8gL8KP8oF7-ZME7Cv8yQXGydXkCRYhahoFy9LUFAmt8De016vpKTw7MoN64OmOz6kbZOamz3OKr5L0ct1AlngMW7Y-OsnZZVVCwmavmPUbohMRJ26JTt4YnRw12WfyVJ_PJk2f6OMTleDzP4FTalc&build-label=apps-fileview.texmex_20250619.00_p0&imp-sid=CKXr57PIpY4DFWgiswUd9R07VA&is-cached-offline=false"
+Document-Policy: include-js-call-stacks-in-crash-reports
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=525=dUEFKM8kikPtoWMcIYgFgBlEZmHKDUCz3nR9-840IDFJk1tbhVzvW4ataxnKyjJKozrBwB2w40dpfU-RhMwnc0Q23VBC7cC4Eqs8bkYfOiAli7B--UcvHO2q1RqWka5rLjmm2hsSXsOeIQsqcNNbJWBo8gtXgE-lqhi2hS_BCA713-MhqaEFg_RVK4PYK33pNw; expires=Sun, 04-Jan-2026 11:00:57 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-07-05 16:31:00,714:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 16:33:23,835:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 16:33:23,851:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:33:23,851:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:33:23,851:INFO:common:created directory at: artifacts]
+[2025-07-05 16:33:23,851:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:33:23,851:INFO:data_ingestion:File already exists of size: ~ 99 KB]
+[2025-07-05 16:33:23,867:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 16:35:02,490:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 16:35:02,506:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:35:02,506:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:35:02,506:INFO:common:created directory at: artifacts]
+[2025-07-05 16:35:02,506:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:35:02,506:INFO:data_ingestion:File already exists of size: ~ 99 KB]
+[2025-07-05 16:35:02,506:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 16:38:24,517:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 16:38:24,517:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:38:24,532:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:38:24,532:INFO:common:created directory at: artifacts]
+[2025-07-05 16:38:24,532:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:38:24,532:INFO:data_ingestion:File already exists of size: ~ 99 KB]
+[2025-07-05 16:38:24,532:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 16:47:17,981:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:47:17,989:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:47:17,997:INFO:common:created directory at: artifacts]
+[2025-07-05 16:47:17,997:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:47:18,006:INFO:986331348:Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 16:50:59,195:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:50:59,207:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:50:59,213:INFO:common:created directory at: artifacts]
+[2025-07-05 16:50:59,213:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:50:59,224:INFO:986331348:Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 16:52:11,655:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 16:52:11,663:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 16:52:11,674:INFO:common:created directory at: artifacts]
+[2025-07-05 16:52:11,674:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 16:52:11,681:INFO:986331348:Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 16:58:04,710:INFO:986331348:Downloaded data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:00:11,502:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 17:00:11,502:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:00:11,517:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:00:11,517:INFO:common:created directory at: artifacts]
+[2025-07-05 17:00:11,517:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:00:13,790:INFO:data_ingestion:artifacts/data_ingestion/data.zip download: with following info: 
+ Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 05 Jul 2025 11:30:12 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
+Reporting-Endpoints: default="/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn/web-reports?bl=apps-fileview.texmex_20250619.00_p0&app=15&clss=1&context=eJwVyn001XccB_C73_1-PxSX64auuNdFQlJqtcTtgZsoPVkPl9OJnmhRplVIqIgdmWYtM8sJXSTX7YGzLanWSlEnKrUaq7YpUx7SohIre_fH67zP5_3-jKyTFBprRQYTrcjNVCvSSbWiXXKtqGqcVnTATSsaHq8VGblrRe4eWlGap1bkla0VBULYhhBRDEQlhYgSIWZ8lxAHy9peCqtgflCfEAzn9rwS6qB67yuhFoqj3wjHoVg9IByHQzMHhAIYGTkgyODx_gGhC-KuvxVSwEU2KEyCtqJBoROaht8L90ClGBZcwXjnsCCFJ7qPxN1gfUUQK-Hxp2JxF-zaKxanwZEMsbgMjraLxRVwdQQTN4Go15sZw6N-H_YP7M9Ts4MQ6zWTJUDA8Gy2BLq1c1g_bA_0ZUngEeTLpsH5NF_WCG7f-bIZMNTjy8TP8aP3Y_vAzeDHJsOWWA3bAfVxGnYTanZq2DW4naRhLVB1UsPOgqRaw6wg_UcNywYzx7nMGm66-7P7II3yZ3LI3OrPvoHAC_5sKRjXY_ugAzuEbZjHYkC_LYDVwsm0APYLrF8RyKIhbdR8lgWuRguYJxwZuYCVQdayQv4tFPxcyEtAtaKIe0J-fxEvhiWyozwcdNOP8mqQW-q4K2y00fF4OHtZx6-DTZ2Ou0H-VR0vBosH6GBFr46vhulhJTwAmjeX8FZIeVLCMyBqfSlPhHTbMp4N4vNl3AReVR7j78DDvpxPg69Cy_khkORVcCtofVbB26Cvs4IPwb_vKvhb6J2g528gdLGer4XkDXqeDrIUPR8D84_reTC8yazkw_Asu5K_hXB3A98I1yINvAUOvTfwEpAuPcFV0LzuBG-Fxs9P8HuGTv4I9Ku7eDWsL-zi2-BFQxcfgP5Z3fw_yLvUzQuhwbGH34I7P_TwP2DdxR4eBergl3wuiBR9XArndCZ0A2QXTCiw1YQWQeigCYWB_rApnYLGAlNqhu46U-qHwiemdAzqzCV0A3ZukVAmeJ-RkB9kdUkoB6xTzUgJNw6Y0V3wuWJGGmiMNKdm-O2IOT2E5HZzqiiVUhX4DEhpDlgNSckZ-vwsaAg6V1nQS4hJsaAUqK2yoMtQ5yOjazBinozMQJ8ko1MQ0WpJO6DtgSV1QkaPJWXBT4OWVAvmX1rRaLh0zorqQXHHmpzh6V1regHxD6xpN8RsHk1xcFolpxqwd5TTJEgIktMeiM6UUywYfS8nU2gwyOkW5JySUy4s1NnQcqjeP4ZqYd5aW1oME6JsaSpszbClOAjJsaU1UL7bjgxQnWpHZ-BqjR01QWaHHeXDbkFB-8CgVNB5KFipoEp4fVpBQ5B9W0G5UNiuoBKINFNSNAQ5KWkZLBmrpOWwK05JabCoUknqXiXNhd-V9vQQ6p3s6T4kLrSnVEiORMIQqUhspKLZXioKgBFRKnrapKIeOFjkQHlQVOZApeBV7kCB8LHekXwg-L0jhULueCcygPeQE83-gI-lAJgUNpa-jnWmPJjwhTNNhUSDM6VCvNiFHoa6UDtI0l3IosWFbMDOwpUcoGa1K_0KF4tcqQGel7rSa8gJ8aZc4B4-JAHbSh9ygnFyNbmDWaCaRsGaFDV9Bi3wJ7TVq6kDnh6eST3QkTyLukFmalyXX3KZpH_9fbdIPIat3BQR7-i0NjZ2m0fkps0RcTgnbo9I2BKRED7Fc8o0z08mz5jo6Rke6_k_IhFqPw&build-label=apps-fileview.texmex_20250619.00_p0&imp-sid=CJqw2PjOpY4DFWgiswUd9R07VA&is-cached-offline=false"
+Document-Policy: include-js-call-stacks-in-crash-reports
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=525=pLEcNh-k5jDtx_ameNW2FjnW31nABxiJiQVCXVz3JGTCvfIs1Tan7p9fEA-BXIz287ub1IACkEy5Elg2I_LHj3Afj36g5pn1eLs22fT5zN2AKjAoUnx0umFWMtBWlbF_SjwuTq2yO5_cDFJAULMsdvb006AKNTjvPJxH3Uh0q5mB7gDMNqPNIjU7U66Y5RRq; expires=Sun, 04-Jan-2026 11:30:12 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-07-05 17:00:14,759:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 17:03:51,665:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:03:51,681:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:03:51,693:INFO:common:created directory at: artifacts]
+[2025-07-05 17:03:51,697:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:03:51,697:INFO:986331348:Downloading data from https://drive.google.com/file/d/1jcccNel9QBqILlXvCGQqmgEbEuqdKGBn into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:09:06,103:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:09:06,107:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:09:06,112:INFO:common:created directory at: artifacts]
+[2025-07-05 17:09:06,120:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:09:06,123:INFO:986331348:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:09:19,890:INFO:986331348:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:10:40,970:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 17:10:40,985:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:10:40,985:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:10:40,985:INFO:common:created directory at: artifacts]
+[2025-07-05 17:10:40,985:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:10:42,753:INFO:data_ingestion:artifacts/data_ingestion/data.zip download: with following info: 
+ Content-Type: text/html; charset=utf-8
+X-Robots-Tag: noindex, nofollow, nosnippet
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sat, 05 Jul 2025 11:40:42 GMT
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
+Reporting-Endpoints: default="/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/web-reports?bl=apps-fileview.texmex_20250619.00_p0&app=15&clss=1&context=eJwVyn001XccB_C73_1-PxSX64auuNdFQlK3Vkvu7QGJ0npYD5fTifVAizKtQkKL2JHp2JbJMpcuKtctsYdEtZVSnajUaqyHc5QpD2mlUlb23h-v8z7v93mPbJDozXUik4VO5GWpExmkOtFOuU5UM04n2uelEw2P14nMvHUibx-dKEOtE_nm6kQhELE-TBQHMSlhomSIG98jJMCyjufCKpgf-kJYCg1fvhQaoXb3S6EeSmNfC0ehVDsoHIX9MweFIhgZPSjI4OHeQaEHEq68EdLAQ_ZWmAQdJW-FbmgZfi_cBpViWPAE8x3DghQeGT4Q94L9BUGshIefiMU9sHO3WJwBxVlicQUc6hSLK-HiCCZuAVG_HzOH-wMa9jfsLdCybyHedyZLguDh2Wwx9OrmsAHYFuLPUsAn1J9Ng9MZ_qwZvL73ZzNgqM-fiZ_iYwxge8DLFMAmw-b4QLYdmhIC2TWo2xHILsONlEDWBjXHA9kpkNQGMjvI_DmQ5YKV61xmD9e8g9gdkMYEMTlkbwli30DImSC2BKRd2CFi_TwWB8atwawejmcEs7OwbkUIi4WMUfNZDniaLWBqKB65gFVAzjI9_w5SP9PzTCj6Vc_LQLWihKuhcKCEl8Ji2SEeCYbph3gtyG0N3BM2OBh4Ipw6b-BXwKHRwL2g8KKBl4LNXWywot_AV8P0iDIeDK2byng7pD0q41kQs66cJ0OmYwXPBfHpCm4BL6sO83fg43yET4Ovw4_w_SApqOR20P6kknfAP-8q-Rvon2DkryF8kZGvgdT1Rp4JsjQjHwPzjxr5UnidXcWH4UluFX8Dkd4mvgEuR5t4G-x_b-JlIF1yjKugde0x3g7Nnx_jt03d_D4YV_fwWlin7-Fb4dmlHj4IA7N6-b9QcK6X6-GSax-_Djd_6ON_wdrf-ngMaJc-53NBpHjBpdBgsKCrIDtjQSHtFvQxhL-1oAgwHrSkamgusqRW6G20pAHQP7Kkw9BoLaGrsGOzhLLB76SEAiCnR0J5oEq3Ik-4us-KboHmghUFQnO0NbXCH8XWdA9SO62pslxKNaAZlNIcsBuSkju8CLChIeheZUPPIS7NhtKgvsaGzsMVjYyuwYh5MrICY4qMqiGq3Za2Q8ddW-qGrD5bygHrr-xoNJxrsKMmUNy0J3d4fMuenkHiXXvaBXGbRlMCnFDJqQ6cXeU0CZJC5fQlxGbLKR7MDsjJEi6Z5HQd8qrllA8LDQ60HGr3jqF6mLfGkRbBhBhHmgpbshwpAcLyHOlTOL7LiX6C2nQnOgkX65yoBbK7nKgQdgkK2gMmpYJOQ9FKBVXBqxMKGoLcGwrKB32ngsog2kpJsRDqpqRlsHiskpbDzgQlZYCuSknafiXNhT-VznQPmtyc6Q4kL3SmdEiNRsIQqUhspqLZvioKhlExKnrcoqI-OFDiQj9CSYULlYPvERcKgQ-NrqSB_PFuZAK_ITea_T8-loJhUsRYKox3p1KY8IU7TYVkkzulQ6LYg-6Fe1AnSDI9yKbNgxzAycaTXKButSf9Dr-UeNIZeFruSa8gL8yP8oH7aEgCBQc0pAfHKg25wdkTGmqEcXIteYNViJZGwco0LUVAGzyAjiYtdcHjgzOpD7pSZ1EvyCzMTxWXnSdp9fsH9mPYyo1Ria5ua-Ljt_pEb9wUlYA6cVtU0uaopMgp6inT1B9NnjFRrY6MV_8HnaplWA&build-label=apps-fileview.texmex_20250619.00_p0&imp-sid=CL3x3KTRpY4DFb3KcwQdMfIIFg&is-cached-offline=false"
+Document-Policy: include-js-call-stacks-in-crash-reports
+Referrer-Policy: origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=525=Gq6-F7sKpYDGfqxrUvl6JBPDQZPrG6yDMUFL0vxkVZ4rDVy_U2adaxdk7W3SR7hR4qkc6bGtHhutBEjzNdgegSb7a-FT1PZp_TltymW-NcGUG_KpneLtjHXPrcmo6xsC1IxJIXzsJSTyxUXjZUShkxfG_Tx2Jtea8HN4f-UbaZxNU_1kXdI6j5bYnimaCmdcrg; expires=Sun, 04-Jan-2026 11:40:41 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+Connection: close
+Transfer-Encoding: chunked
+
+]
+[2025-07-05 17:10:43,662:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 17:18:12,813:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 17:18:12,828:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:18:12,828:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:18:12,828:INFO:common:created directory at: artifacts]
+[2025-07-05 17:18:12,828:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:18:12,828:INFO:data_ingestion:File already exists of size: ~ 41 KB]
+[2025-07-05 17:18:12,844:ERROR:main:File is not a zip file]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 18, in main
+    data_ingestion.extract_zip_file()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\data_ingestion.py", line 32, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1272, in __init__
+    self._RealGetContents()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\zipfile.py", line 1339, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-07-05 17:26:45,714:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:26:45,726:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:26:45,726:INFO:common:created directory at: artifacts]
+[2025-07-05 17:26:45,736:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:26:45,744:INFO:986331348:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:26:59,332:INFO:986331348:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:32:28,388:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:32:28,400:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:32:28,409:INFO:common:created directory at: artifacts]
+[2025-07-05 17:32:28,421:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:32:28,424:INFO:986331348:Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:32:41,064:INFO:986331348:Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-05 17:35:12,257:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 17:35:12,257:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:35:12,272:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:35:12,272:INFO:common:created directory at: artifacts]
+[2025-07-05 17:35:12,272:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:35:12,272:INFO:data_ingestion:File already exists of size: ~ 56361 KB]
+[2025-07-05 17:35:13,961:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-05 17:35:13,961:INFO:main:*******************]
+[2025-07-05 17:35:13,961:INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2025-07-05 17:35:13,961:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:35:13,961:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:35:13,977:INFO:common:created directory at: artifacts]
+[2025-07-05 17:35:13,977:INFO:common:created directory at: artifacts/prepare_base_model]
+[2025-07-05 17:35:15,683:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-05 17:35:16,444:ERROR:main:Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=artifacts\prepare_base_model.]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 25, in <module>
+    prepare_base_model.main()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 17, in main
+    prepare_base_model.update_base_model()
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\prepare_base_model.py", line 64, in update_base_model
+    self.save_model(path=self.config.updated_base_model_path, model=self.full_model)
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\cnnClassifier\components\prepare_base_model.py", line 69, in save_model
+    model.save(path)
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\keras\src\saving\saving_api.py", line 114, in save_model
+    raise ValueError(
+ValueError: Invalid filepath extension for saving. Please add either a `.keras` extension for the native Keras format (recommended) or a `.h5` extension. Use `model.export(filepath)` if you want to export a SavedModel for use with TFLite/TFServing/etc. Received: filepath=artifacts\prepare_base_model.
+[2025-07-05 17:37:41,906:INFO:main:>>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-05 17:37:41,921:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:37:41,921:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:37:41,921:INFO:common:created directory at: artifacts]
+[2025-07-05 17:37:41,921:INFO:common:created directory at: artifacts/data_ingestion]
+[2025-07-05 17:37:41,921:INFO:data_ingestion:File already exists of size: ~ 56361 KB]
+[2025-07-05 17:37:43,547:INFO:main:>>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-05 17:37:43,547:INFO:main:*******************]
+[2025-07-05 17:37:43,547:INFO:main:>>>>>> stage Prepare base model started <<<<<<]
+[2025-07-05 17:37:43,563:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:37:43,563:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:37:43,563:INFO:common:created directory at: artifacts]
+[2025-07-05 17:37:43,563:INFO:common:created directory at: artifacts/prepare_base_model]
+[2025-07-05 17:37:44,907:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-05 17:37:45,565:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-05 17:37:45,861:INFO:main:>>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
