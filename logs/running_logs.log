@@ -480,3 +480,256 @@ x==========x]
 [2025-07-05 17:37:45,861:INFO:main:>>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2025-07-05 17:51:50,217:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:51:50,227:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:51:50,227:INFO:common:created directory at: artifacts]
+[2025-07-05 17:51:50,240:INFO:common:created directory at: artifacts\training]
+[2025-07-05 17:51:51,702:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 17:55:07,311:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:55:07,323:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:55:07,327:INFO:common:created directory at: artifacts]
+[2025-07-05 17:55:07,335:INFO:common:created directory at: artifacts\training]
+[2025-07-05 17:55:08,054:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 17:58:39,932:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 17:58:39,940:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 17:58:39,949:INFO:common:created directory at: artifacts]
+[2025-07-05 17:58:39,949:INFO:common:created directory at: artifacts\training]
+[2025-07-05 17:58:41,345:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 18:00:03,747:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 18:00:03,754:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 18:00:03,754:INFO:common:created directory at: artifacts]
+[2025-07-05 18:00:03,763:INFO:common:created directory at: artifacts\training]
+[2025-07-05 18:00:04,703:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 18:04:45,280:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 18:04:45,287:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 18:04:45,297:INFO:common:created directory at: artifacts]
+[2025-07-05 18:04:45,302:INFO:common:created directory at: artifacts\training]
+[2025-07-05 18:04:46,311:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 18:06:51,987:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 18:06:51,995:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 18:06:52,003:INFO:common:created directory at: artifacts]
+[2025-07-05 18:06:52,011:INFO:common:created directory at: artifacts\training]
+[2025-07-05 18:06:53,081:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 18:11:17,127:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 18:11:17,137:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 18:11:17,137:INFO:common:created directory at: artifacts]
+[2025-07-05 18:11:17,145:INFO:common:created directory at: artifacts\training]
+[2025-07-05 18:11:18,207:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-05 18:13:55,605:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-05 18:13:55,614:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-05 18:13:55,622:INFO:common:created directory at: artifacts]
+[2025-07-05 18:13:55,622:INFO:common:created directory at: artifacts\training]
+[2025-07-05 18:13:56,621:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 10:32:16,315:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-06 10:32:16,344:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-06 10:32:16,344:INFO:common:created directory at: artifacts]
+[2025-07-06 10:32:16,344:INFO:common:created directory at: artifacts\training]
+[2025-07-06 10:32:17,241:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 10:41:30,128:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-06 10:41:30,134:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-06 10:41:30,134:INFO:common:created directory at: artifacts]
+[2025-07-06 10:41:30,143:INFO:common:created directory at: artifacts\training]
+[2025-07-06 10:41:30,875:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 10:44:05,727:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2025-07-06 10:44:05,735:INFO:common:yaml file: params.yaml loaded successfully]
+[2025-07-06 10:44:05,738:INFO:common:created directory at: artifacts]
+[2025-07-06 10:44:05,742:INFO:common:created directory at: artifacts\training]
+[2025-07-06 10:44:06,306:WARNING:saving_utils:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 10:46:22,018:WARNING:saving_api:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 12:44:55,454: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 12:44:55,501: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 12:44:55,501: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 12:44:55,501: INFO: common: created directory at: artifacts]
+[2025-07-06 12:44:55,501: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-06 12:44:55,516: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 12:45:19,061: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 12:45:20,891: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-06 12:45:20,891: INFO: main: *******************]
+[2025-07-06 12:45:20,907: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-06 12:45:20,907: ERROR: main: 'PrepareBaseModelTrainingPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 26, in <module>
+    prepare_base_model.main()
+AttributeError: 'PrepareBaseModelTrainingPipeline' object has no attribute 'main'
+[2025-07-06 12:48:23,870: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 12:48:23,870: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 12:48:23,886: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 12:48:23,886: INFO: common: created directory at: artifacts]
+[2025-07-06 12:48:23,886: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-06 12:48:23,886: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 12:48:52,736: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 12:48:54,315: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-06 12:48:54,315: INFO: main: *******************]
+[2025-07-06 12:48:54,315: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-06 12:48:54,315: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 12:48:54,315: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 12:48:54,331: INFO: common: created directory at: artifacts]
+[2025-07-06 12:48:54,331: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 26, in <module>
+    prepare_base_model.main()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2025-07-06 12:51:25,981: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 12:51:25,996: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 12:51:25,996: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 12:51:26,012: INFO: common: created directory at: artifacts]
+[2025-07-06 12:51:26,012: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-06 12:51:26,012: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 12:51:50,342: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 12:51:52,015: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-06 12:51:52,015: INFO: main: *******************]
+[2025-07-06 12:51:52,015: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-06 12:51:52,015: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 12:51:52,015: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 12:51:52,031: INFO: common: created directory at: artifacts]
+[2025-07-06 12:51:52,031: ERROR: main: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 26, in <module>
+    prepare_base_model.main()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_02_prepare_base_model.py", line 13, in main
+    prepare_base_model_config = config.get_prepare_base_model_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_prepare_base_model_config'
+[2025-07-06 12:54:16,118: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 12:54:16,134: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 12:54:16,134: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 12:54:16,134: INFO: common: created directory at: artifacts]
+[2025-07-06 12:54:16,134: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-06 13:01:39,873: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 13:01:39,873: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:01:39,889: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:01:39,889: INFO: common: created directory at: artifacts]
+[2025-07-06 13:01:39,889: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 13, in <module>
+    data_ingestion.main()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-06 13:07:55,216: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 13:07:55,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:07:55,231: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:07:55,231: INFO: common: created directory at: artifacts]
+[2025-07-06 13:07:55,247: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-06 13:07:55,247: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 13:08:20,585: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 13:08:22,226: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-06 13:08:22,226: INFO: main: *******************]
+[2025-07-06 13:08:22,226: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-06 13:08:22,226: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:08:22,242: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:08:22,242: INFO: common: created directory at: artifacts]
+[2025-07-06 13:08:22,242: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-06 13:08:23,740: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:08:24,271: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:08:24,599: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-06 13:08:24,599: INFO: main: *******************]
+[2025-07-06 13:08:24,599: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-06 13:08:24,599: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:08:24,615: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:08:24,615: INFO: common: created directory at: artifacts]
+[2025-07-06 13:08:24,615: INFO: common: created directory at: artifacts\training]
+[2025-07-06 13:08:25,242: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 13:08:25,477: ERROR: main: Could not import PIL.Image. The use of `load_img` requires PIL.]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 40, in <module>
+    model_trainer.main()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+    training.train()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\components\model_training.py", line 79, in train
+    self.model.fit(
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\keras\src\utils\image_utils.py", line 227, in load_img
+    raise ImportError(
+ImportError: Could not import PIL.Image. The use of `load_img` requires PIL.
+[2025-07-06 13:10:29,585: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 13:10:29,585: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:10:29,601: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:10:29,601: INFO: common: created directory at: artifacts]
+[2025-07-06 13:10:29,601: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-06 13:10:29,601: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 13:10:53,561: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 13:10:55,297: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-06 13:10:55,297: INFO: main: *******************]
+[2025-07-06 13:10:55,297: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-06 13:10:55,297: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:10:55,312: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:10:55,312: INFO: common: created directory at: artifacts]
+[2025-07-06 13:10:55,312: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-06 13:10:56,611: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:10:57,519: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:10:58,850: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-06 13:10:58,850: INFO: main: *******************]
+[2025-07-06 13:10:58,850: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-06 13:10:58,882: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:10:58,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:10:58,898: INFO: common: created directory at: artifacts]
+[2025-07-06 13:10:58,898: INFO: common: created directory at: artifacts\training]
+[2025-07-06 13:10:59,801: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 13:11:01,532: ERROR: main: This requires the scipy module. You can install it via `pip install scipy`]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 40, in <module>
+    model_trainer.main()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\pipeline\stage_03_model_training.py", line 18, in main
+    training.train()
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\src\cnnClassifier\components\model_training.py", line 79, in train
+    self.model.fit(
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\kavya\miniconda3\envs\tf_env\lib\site-packages\keras\src\utils\module_utils.py", line 29, in initialize
+    raise ImportError(self.import_error_msg)
+ImportError: This requires the scipy module. You can install it via `pip install scipy`
+[2025-07-06 13:13:06,072: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-06 13:13:06,072: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:13:06,087: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:13:06,087: INFO: common: created directory at: artifacts]
+[2025-07-06 13:13:06,087: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-06 13:13:06,087: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 13:13:35,093: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-06 13:13:36,937: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-06 13:13:36,937: INFO: main: *******************]
+[2025-07-06 13:13:36,937: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-06 13:13:36,937: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:13:36,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:13:36,953: INFO: common: created directory at: artifacts]
+[2025-07-06 13:13:36,953: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-06 13:13:38,219: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:13:38,766: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:13:39,188: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-06 13:13:39,188: INFO: main: *******************]
+[2025-07-06 13:13:39,188: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-06 13:13:39,204: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-06 13:13:39,204: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-06 13:13:39,204: INFO: common: created directory at: artifacts]
+[2025-07-06 13:13:39,204: INFO: common: created directory at: artifacts\training]
+[2025-07-06 13:13:39,829: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-06 13:15:56,974: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-07-06 13:15:57,271: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
