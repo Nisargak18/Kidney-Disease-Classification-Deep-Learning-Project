@@ -733,3 +733,1964 @@ x==========x]
 [2025-07-06 13:15:57,271: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2025-07-07 18:49:04,894: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 18:49:15,265: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 18:49:15,273: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 18:49:15,281: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 18:49:15,281: INFO: common: created directory at: artifacts]
+[2025-07-07 18:49:15,281: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-07 18:52:31,548: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 18:52:41,786: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 18:52:41,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 18:52:41,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 18:52:41,802: INFO: common: created directory at: artifacts]
+[2025-07-07 18:52:41,802: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-07 18:57:01,717: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 18:57:11,745: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 18:57:11,753: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 18:57:11,761: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 18:57:11,761: INFO: common: created directory at: artifacts]
+[2025-07-07 18:57:11,761: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-07 18:59:09,467: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 18:59:15,078: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 18:59:15,085: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 18:59:15,088: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 18:59:15,089: INFO: common: created directory at: artifacts]
+[2025-07-07 18:59:15,090: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-07 19:00:45,989: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 19:00:52,917: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 19:00:52,933: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:00:52,933: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:00:52,933: INFO: common: created directory at: artifacts]
+[2025-07-07 19:00:52,933: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 13, in main
+    data_ingestion_config = config.get_data_ingestion_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestion_config'
+[2025-07-07 19:32:59,266: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 19:33:15,017: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 19:33:15,026: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:33:15,032: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:33:15,034: INFO: common: created directory at: artifacts]
+[2025-07-07 19:33:15,035: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 19:33:15,036: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:33:31,523: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:33:33,948: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 19:33:33,949: INFO: main: *******************]
+[2025-07-07 19:33:33,950: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 19:33:33,960: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:33:33,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:33:33,965: INFO: common: created directory at: artifacts]
+[2025-07-07 19:33:33,966: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 19:33:35,079: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 19:33:35,626: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 19:33:36,618: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 19:33:38,509: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 19:33:38,510: INFO: main: *******************]
+[2025-07-07 19:33:38,510: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 19:33:38,541: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:33:38,545: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:33:38,546: INFO: common: created directory at: artifacts]
+[2025-07-07 19:33:38,547: INFO: common: created directory at: artifacts\training]
+[2025-07-07 19:33:42,022: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 19:33:42,568: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 19:36:34,516: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 19:36:34,523: INFO: main: *******************]
+[2025-07-07 19:36:34,524: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 19:36:34,526: ERROR: main: 'EvaluationPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+AttributeError: 'EvaluationPipeline' object has no attribute 'main'
+[2025-07-07 19:38:23,695: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 19:38:32,538: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 19:38:32,554: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:38:32,554: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:38:32,554: INFO: common: created directory at: artifacts]
+[2025-07-07 19:38:32,554: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 19:38:32,554: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:38:50,027: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:38:51,574: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 19:38:51,574: INFO: main: *******************]
+[2025-07-07 19:38:51,574: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 19:38:51,590: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:38:51,590: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:38:51,590: INFO: common: created directory at: artifacts]
+[2025-07-07 19:38:51,590: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 19:38:52,433: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 19:38:53,059: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 19:38:54,215: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 19:38:55,066: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 19:38:55,067: INFO: main: *******************]
+[2025-07-07 19:38:55,067: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 19:38:55,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:38:55,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:38:55,075: INFO: common: created directory at: artifacts]
+[2025-07-07 19:38:55,075: INFO: common: created directory at: artifacts\training]
+[2025-07-07 19:38:57,889: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 19:38:58,170: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 19:41:29,661: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 19:41:29,677: INFO: main: *******************]
+[2025-07-07 19:41:29,677: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 19:41:29,677: ERROR: main: 'EvaluationPipeline' object has no attribute 'main']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+AttributeError: 'EvaluationPipeline' object has no attribute 'main'
+[2025-07-07 19:42:47,300: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 19:42:55,225: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 19:42:55,240: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:42:55,240: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:42:55,240: INFO: common: created directory at: artifacts]
+[2025-07-07 19:42:55,240: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 19:42:55,240: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:43:09,296: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:43:10,753: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 19:43:10,754: INFO: main: *******************]
+[2025-07-07 19:43:10,755: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 19:43:10,764: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:43:10,771: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:43:10,772: INFO: common: created directory at: artifacts]
+[2025-07-07 19:43:10,773: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 19:43:11,673: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 19:43:12,173: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 19:43:13,141: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 19:43:13,675: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 19:43:13,675: INFO: main: *******************]
+[2025-07-07 19:43:13,675: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 19:43:13,690: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:43:13,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:43:13,690: INFO: common: created directory at: artifacts]
+[2025-07-07 19:43:13,690: INFO: common: created directory at: artifacts\training]
+[2025-07-07 19:43:16,050: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 19:43:16,409: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 19:45:42,947: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 19:45:42,947: INFO: main: *******************]
+[2025-07-07 19:45:42,947: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 19:45:42,963: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:45:42,963: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:45:42,963: INFO: common: created directory at: artifacts]
+[2025-07-07 19:45:44,010: ERROR: main: name 'model' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.evaluation()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 49, in evaluation
+    self.score = model.evaluate(self.valid_generator)
+NameError: name 'model' is not defined
+[2025-07-07 19:48:38,711: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 19:48:48,369: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 19:48:48,369: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 19:48:48,385: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 19:48:48,385: INFO: common: created directory at: artifacts]
+[2025-07-07 19:48:48,385: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 19:48:48,385: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 19:48:59,484: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB2D9AF700>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))]
+Traceback (most recent call last):
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\socket.py", line 967, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001EB2D9AF700>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB2D9AF700>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.download_file()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB2D9AF700>: Failed to resolve 'drive.google.com' ([Errno 11001] getaddrinfo failed)"))
+[2025-07-07 20:32:41,549: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 20:32:54,790: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 20:32:54,806: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:32:54,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:32:54,806: INFO: common: created directory at: artifacts]
+[2025-07-07 20:32:54,822: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 20:32:54,822: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 20:33:10,922: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 20:33:13,127: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 20:33:13,127: INFO: main: *******************]
+[2025-07-07 20:33:13,127: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 20:33:13,139: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:33:13,143: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:33:13,143: INFO: common: created directory at: artifacts]
+[2025-07-07 20:33:13,143: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 20:33:14,550: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 20:33:15,472: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 20:33:17,052: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 20:33:17,880: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 20:33:17,880: INFO: main: *******************]
+[2025-07-07 20:33:17,880: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 20:33:17,900: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:33:17,904: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:33:17,905: INFO: common: created directory at: artifacts]
+[2025-07-07 20:33:17,906: INFO: common: created directory at: artifacts\training]
+[2025-07-07 20:33:21,523: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 20:33:22,070: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 20:35:30,850: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 20:35:30,866: INFO: main: *******************]
+[2025-07-07 20:35:30,866: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 20:35:30,881: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:35:30,881: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:35:30,897: INFO: common: created directory at: artifacts]
+[2025-07-07 20:35:32,227: ERROR: main: name 'model' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.evaluation()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 49, in evaluation
+    self.score = model.evaluate(self.valid_generator)
+NameError: name 'model' is not defined
+[2025-07-07 20:38:11,873: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 20:38:19,625: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 20:38:19,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:38:19,625: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:38:19,641: INFO: common: created directory at: artifacts]
+[2025-07-07 20:38:19,641: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 20:38:19,641: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 20:38:33,440: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 20:38:34,723: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 20:38:34,723: INFO: main: *******************]
+[2025-07-07 20:38:34,723: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 20:38:34,739: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:38:34,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:38:34,739: INFO: common: created directory at: artifacts]
+[2025-07-07 20:38:34,739: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 20:38:35,520: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 20:38:36,005: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 20:38:37,145: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 20:38:37,786: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 20:38:37,786: INFO: main: *******************]
+[2025-07-07 20:38:37,786: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 20:38:37,801: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:38:37,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:38:37,801: INFO: common: created directory at: artifacts]
+[2025-07-07 20:38:37,801: INFO: common: created directory at: artifacts\training]
+[2025-07-07 20:38:40,598: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 20:38:40,927: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 20:41:10,564: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 20:41:10,580: INFO: main: *******************]
+[2025-07-07 20:41:10,580: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 20:41:10,596: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:41:10,596: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:41:10,596: INFO: common: created directory at: artifacts]
+[2025-07-07 20:41:11,659: ERROR: main: name 'model' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.evaluation()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 49, in evaluation
+    self.score = model.evaluate(self.valid_generator)
+NameError: name 'model' is not defined
+[2025-07-07 20:55:42,445: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 20:55:54,118: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 20:55:54,128: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:55:54,134: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:55:54,136: INFO: common: created directory at: artifacts]
+[2025-07-07 20:55:54,139: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 20:55:54,141: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 20:56:14,472: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 20:56:16,073: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 20:56:16,073: INFO: main: *******************]
+[2025-07-07 20:56:16,073: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 20:56:16,079: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:56:16,084: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:56:16,085: INFO: common: created directory at: artifacts]
+[2025-07-07 20:56:16,086: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 20:56:17,313: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 20:56:17,784: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 20:56:18,869: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 20:56:19,595: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 20:56:19,595: INFO: main: *******************]
+[2025-07-07 20:56:19,597: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 20:56:19,604: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:56:19,608: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:56:19,609: INFO: common: created directory at: artifacts]
+[2025-07-07 20:56:19,611: INFO: common: created directory at: artifacts\training]
+[2025-07-07 20:56:22,995: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 20:56:23,504: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 20:59:05,195: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 20:59:05,199: INFO: main: *******************]
+[2025-07-07 20:59:05,200: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 20:59:05,230: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 20:59:05,243: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 20:59:05,251: INFO: common: created directory at: artifacts]
+[2025-07-07 20:59:06,388: ERROR: main: name 'model' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.evaluation()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 49, in evaluation
+    self.score = model.evaluate(self.valid_generator)
+NameError: name 'model' is not defined
+[2025-07-07 21:30:27,746: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:30:27,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:30:27,773: INFO: common: created directory at: artifacts]
+[2025-07-07 21:30:33,638: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 21:31:17,408: INFO: common: json file saved at: scores.json]
+[2025-07-07 21:35:03,661: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 21:35:10,321: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 21:35:10,332: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:35:10,337: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:35:10,337: INFO: common: created directory at: artifacts]
+[2025-07-07 21:35:10,337: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 21:35:10,337: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 21:35:47,278: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 21:35:48,341: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 21:35:48,341: INFO: main: *******************]
+[2025-07-07 21:35:48,341: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 21:35:48,341: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:35:48,341: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:35:48,341: INFO: common: created directory at: artifacts]
+[2025-07-07 21:35:48,341: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 21:35:49,107: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 21:35:49,529: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 21:35:50,295: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 21:35:50,811: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 21:35:50,811: INFO: main: *******************]
+[2025-07-07 21:35:50,811: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 21:35:50,811: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:35:50,811: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:35:50,811: INFO: common: created directory at: artifacts]
+[2025-07-07 21:35:50,811: INFO: common: created directory at: artifacts\training]
+[2025-07-07 21:35:52,780: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 21:35:53,061: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 21:38:02,440: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 21:38:02,440: INFO: main: *******************]
+[2025-07-07 21:38:02,440: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 21:38:02,455: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:38:02,471: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:38:02,471: INFO: common: created directory at: artifacts]
+[2025-07-07 21:38:03,269: ERROR: main: name 'model' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 19, in main
+    evaluation.evaluation()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 49, in evaluation
+    self.score = model.evaluate(self.valid_generator)
+NameError: name 'model' is not defined
+[2025-07-07 21:44:43,039: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:44:43,057: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:44:43,062: INFO: common: created directory at: artifacts]
+[2025-07-07 21:44:45,534: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 21:45:41,600: INFO: common: json file saved at: scores.json]
+[2025-07-07 21:48:11,389: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 21:48:19,473: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 21:48:19,583: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:48:19,598: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:48:19,598: INFO: common: created directory at: artifacts]
+[2025-07-07 21:48:19,598: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 21:48:19,598: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 21:48:33,513: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 21:48:34,764: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 21:48:34,764: INFO: main: *******************]
+[2025-07-07 21:48:34,764: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 21:48:34,779: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:48:34,779: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:48:34,795: INFO: common: created directory at: artifacts]
+[2025-07-07 21:48:34,795: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 21:48:36,123: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 21:48:36,656: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 21:48:37,796: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 21:48:38,406: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 21:48:38,406: INFO: main: *******************]
+[2025-07-07 21:48:38,406: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 21:48:38,406: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:48:38,421: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:48:38,421: INFO: common: created directory at: artifacts]
+[2025-07-07 21:48:38,421: INFO: common: created directory at: artifacts\training]
+[2025-07-07 21:48:41,029: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 21:48:41,391: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 21:51:13,808: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 21:51:13,808: INFO: main: *******************]
+[2025-07-07 21:51:13,808: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 21:51:13,824: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:51:13,824: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:51:13,824: INFO: common: created directory at: artifacts]
+[2025-07-07 21:51:59,977: INFO: common: json file saved at: scores.json]
+[2025-07-07 21:51:59,993: INFO: common: json file saved at: scores.json]
+[2025-07-07 21:52:04,057: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 63, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-07 21:57:11,646: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 21:57:11,662: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 21:57:11,677: INFO: common: created directory at: artifacts]
+[2025-07-07 21:57:14,499: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 21:57:58,722: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:00:00,546: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 22:00:09,097: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 22:00:09,113: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:00:09,113: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:00:09,113: INFO: common: created directory at: artifacts]
+[2025-07-07 22:00:09,113: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 22:00:09,113: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:00:24,839: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:00:26,793: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 22:00:26,793: INFO: main: *******************]
+[2025-07-07 22:00:26,793: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 22:00:26,824: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:00:26,840: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:00:26,840: INFO: common: created directory at: artifacts]
+[2025-07-07 22:00:26,840: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 22:00:27,637: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:00:28,027: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 22:00:29,513: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 22:00:32,655: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 22:00:32,655: INFO: main: *******************]
+[2025-07-07 22:00:32,655: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 22:00:32,655: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:00:32,655: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:00:32,655: INFO: common: created directory at: artifacts]
+[2025-07-07 22:00:32,655: INFO: common: created directory at: artifacts\training]
+[2025-07-07 22:00:35,732: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:00:36,264: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:03:03,496: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 22:03:03,496: INFO: main: *******************]
+[2025-07-07 22:03:03,496: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 22:03:03,512: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:03:03,527: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:03:03,527: INFO: common: created directory at: artifacts]
+[2025-07-07 22:03:49,486: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:03:49,486: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:03:57,961: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 63, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-07 22:09:10,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:09:10,295: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:09:10,304: INFO: common: created directory at: artifacts]
+[2025-07-07 22:09:13,536: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:09:58,317: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:19:59,351: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:19:59,351: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:19:59,367: INFO: common: created directory at: artifacts]
+[2025-07-07 22:20:01,188: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:20:40,578: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:23:23,992: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 22:23:29,570: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 22:23:29,570: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:23:29,586: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:23:29,586: INFO: common: created directory at: artifacts]
+[2025-07-07 22:23:29,586: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 22:23:29,586: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:23:44,333: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:23:45,329: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 22:23:45,329: INFO: main: *******************]
+[2025-07-07 22:23:45,329: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 22:23:45,329: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:23:45,329: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:23:45,329: INFO: common: created directory at: artifacts]
+[2025-07-07 22:23:45,344: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 22:23:45,969: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:23:46,438: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 22:23:47,220: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 22:23:48,111: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 22:23:48,111: INFO: main: *******************]
+[2025-07-07 22:23:48,111: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 22:23:48,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:23:48,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:23:48,111: INFO: common: created directory at: artifacts]
+[2025-07-07 22:23:48,111: INFO: common: created directory at: artifacts\training]
+[2025-07-07 22:23:50,768: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:23:51,050: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:26:07,961: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 22:26:07,977: INFO: main: *******************]
+[2025-07-07 22:26:07,977: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 22:26:07,992: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:26:07,992: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:26:08,008: INFO: common: created directory at: artifacts]
+[2025-07-07 22:26:52,974: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:26:52,974: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:26:56,054: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 63, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-07 22:33:57,378: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:33:57,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:33:57,398: INFO: common: created directory at: artifacts]
+[2025-07-07 22:33:59,851: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:34:40,167: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:40:17,256: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 22:40:22,945: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 22:40:22,945: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:40:22,945: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:40:22,945: INFO: common: created directory at: artifacts]
+[2025-07-07 22:40:22,945: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 22:40:22,945: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:40:39,632: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:40:40,647: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 22:40:40,647: INFO: main: *******************]
+[2025-07-07 22:40:40,647: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 22:40:40,663: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:40:40,663: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:40:40,663: INFO: common: created directory at: artifacts]
+[2025-07-07 22:40:40,663: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 22:40:41,382: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:40:41,882: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 22:40:42,991: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 22:40:43,757: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 22:40:43,772: INFO: main: *******************]
+[2025-07-07 22:40:43,772: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 22:40:43,772: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:40:43,772: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:40:43,772: INFO: common: created directory at: artifacts]
+[2025-07-07 22:40:43,772: INFO: common: created directory at: artifacts\training]
+[2025-07-07 22:40:45,976: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:40:46,289: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:42:53,041: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 22:42:53,041: INFO: main: *******************]
+[2025-07-07 22:42:53,041: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 22:42:53,057: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:42:53,057: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:42:53,072: INFO: common: created directory at: artifacts]
+[2025-07-07 22:43:39,209: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:43:39,209: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:43:41,961: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-07 22:50:35,075: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-07 22:50:41,106: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-07 22:50:41,106: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:50:41,122: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:50:41,122: INFO: common: created directory at: artifacts]
+[2025-07-07 22:50:41,122: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-07 22:50:41,122: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:51:38,495: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-07 22:51:39,496: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-07 22:51:39,496: INFO: main: *******************]
+[2025-07-07 22:51:39,496: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-07 22:51:39,511: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:51:39,511: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:51:39,511: INFO: common: created directory at: artifacts]
+[2025-07-07 22:51:39,511: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-07 22:51:40,105: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:51:40,558: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-07 22:51:41,386: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-07 22:51:42,778: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-07 22:51:42,778: INFO: main: *******************]
+[2025-07-07 22:51:42,778: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-07 22:51:42,794: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:51:42,794: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:51:42,794: INFO: common: created directory at: artifacts]
+[2025-07-07 22:51:42,794: INFO: common: created directory at: artifacts\training]
+[2025-07-07 22:51:44,748: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-07 22:51:44,998: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-07 22:53:44,342: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-07 22:53:44,342: INFO: main: *******************]
+[2025-07-07 22:53:44,358: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-07 22:53:44,373: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-07 22:53:44,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-07 22:53:44,389: INFO: common: created directory at: artifacts]
+[2025-07-07 22:54:32,404: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:54:32,407: INFO: common: json file saved at: scores.json]
+[2025-07-07 22:54:35,470: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 09:46:00,569: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 09:46:12,798: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 09:46:12,817: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 09:46:12,817: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 09:46:12,831: INFO: common: created directory at: artifacts]
+[2025-07-08 09:46:12,833: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 09:46:12,833: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 09:46:32,069: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 09:46:34,235: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 09:46:34,235: INFO: main: *******************]
+[2025-07-08 09:46:34,253: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 09:46:34,263: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 09:46:34,269: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 09:46:34,269: INFO: common: created directory at: artifacts]
+[2025-07-08 09:46:34,269: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 09:46:36,128: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 09:46:36,796: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 09:46:38,396: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 09:46:40,692: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 09:46:40,692: INFO: main: *******************]
+[2025-07-08 09:46:40,692: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 09:46:40,704: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 09:46:40,708: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 09:46:40,708: INFO: common: created directory at: artifacts]
+[2025-07-08 09:46:40,708: INFO: common: created directory at: artifacts\training]
+[2025-07-08 09:46:44,952: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 09:46:45,518: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 09:49:02,561: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 09:49:02,572: INFO: main: *******************]
+[2025-07-08 09:49:02,572: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 09:49:02,577: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 09:49:02,595: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 09:49:02,595: INFO: common: created directory at: artifacts]
+[2025-07-08 09:49:59,616: INFO: common: json file saved at: scores.json]
+[2025-07-08 09:49:59,622: INFO: common: json file saved at: scores.json]
+[2025-07-08 09:50:06,265: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 10:01:44,875: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:01:44,930: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:01:44,946: INFO: common: created directory at: artifacts]
+[2025-07-08 10:01:50,834: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 10:02:33,901: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:04:11,669: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:04:11,686: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:04:11,689: INFO: common: created directory at: artifacts]
+[2025-07-08 10:04:15,019: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 10:04:57,618: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:08:02,242: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 10:08:12,949: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 10:08:12,965: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:08:12,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:08:12,981: INFO: common: created directory at: artifacts]
+[2025-07-08 10:08:12,981: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 10:08:12,981: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 10:08:32,699: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 10:08:34,623: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 10:08:34,623: INFO: main: *******************]
+[2025-07-08 10:08:34,623: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 10:08:34,639: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:08:34,639: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:08:34,655: INFO: common: created directory at: artifacts]
+[2025-07-08 10:08:34,655: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 10:08:35,623: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 10:08:36,295: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 10:08:37,548: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 10:08:38,532: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 10:08:38,532: INFO: main: *******************]
+[2025-07-08 10:08:38,532: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 10:08:38,548: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:08:38,548: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:08:38,563: INFO: common: created directory at: artifacts]
+[2025-07-08 10:08:38,563: INFO: common: created directory at: artifacts\training]
+[2025-07-08 10:08:41,787: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 10:08:42,256: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 10:10:42,399: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 10:10:42,399: INFO: main: *******************]
+[2025-07-08 10:10:42,399: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 10:10:42,415: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:10:42,415: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:10:42,430: INFO: common: created directory at: artifacts]
+[2025-07-08 10:11:23,293: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:11:23,293: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:11:27,903: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 10:15:10,842: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:15:10,859: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:15:10,867: INFO: common: created directory at: artifacts]
+[2025-07-08 10:15:14,844: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 10:16:01,582: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:18:14,771: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:18:14,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:18:14,786: INFO: common: created directory at: artifacts]
+[2025-07-08 10:18:18,234: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 10:19:01,859: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:20:02,419: WARNING: connectionpool: Retrying (Retry(total=6, connect=7, read=7, redirect=7, status=7)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2436)')': /Nisargak18/Kidney-Disease-Classification-Deep-Learning-Project.mlflow/api/2.0/mlflow-artifacts/artifacts/ae81e4563967473ba46f551a69a54447/193816748b504c9e92af46d5e3d59485/artifacts/VGG16Model/model.h5]
+[2025-07-08 10:23:26,116: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 10:23:36,878: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 10:23:36,878: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:23:36,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:23:36,894: INFO: common: created directory at: artifacts]
+[2025-07-08 10:23:36,894: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 10:23:36,894: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 10:23:51,396: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 10:23:53,179: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 10:23:53,179: INFO: main: *******************]
+[2025-07-08 10:23:53,179: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 10:23:53,194: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:23:53,194: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:23:53,194: INFO: common: created directory at: artifacts]
+[2025-07-08 10:23:53,194: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 10:23:54,101: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 10:23:54,757: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 10:23:55,947: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 10:23:56,666: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 10:23:56,666: INFO: main: *******************]
+[2025-07-08 10:23:56,666: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 10:23:56,666: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:23:56,681: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:23:56,681: INFO: common: created directory at: artifacts]
+[2025-07-08 10:23:56,681: INFO: common: created directory at: artifacts\training]
+[2025-07-08 10:23:59,808: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 10:24:00,388: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 10:25:59,267: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 10:25:59,267: INFO: main: *******************]
+[2025-07-08 10:25:59,267: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 10:25:59,283: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 10:25:59,283: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 10:25:59,299: INFO: common: created directory at: artifacts]
+[2025-07-08 10:26:40,630: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:26:40,630: INFO: common: json file saved at: scores.json]
+[2025-07-08 10:26:47,336: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 15:38:13,013: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 15:38:20,885: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 15:38:20,908: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 15:38:20,929: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 15:38:20,932: INFO: common: created directory at: artifacts]
+[2025-07-08 15:38:20,933: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 15:38:20,934: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 15:38:36,560: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 15:38:38,081: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 15:38:38,082: INFO: main: *******************]
+[2025-07-08 15:38:38,083: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 15:38:38,098: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 15:38:38,106: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 15:38:38,110: INFO: common: created directory at: artifacts]
+[2025-07-08 15:38:38,111: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 15:38:39,293: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 15:38:40,181: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 15:38:41,402: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 15:38:43,925: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 15:38:43,926: INFO: main: *******************]
+[2025-07-08 15:38:43,926: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 15:38:43,933: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 15:38:43,937: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 15:38:43,937: INFO: common: created directory at: artifacts]
+[2025-07-08 15:38:43,938: INFO: common: created directory at: artifacts\training]
+[2025-07-08 15:38:46,563: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 15:38:47,105: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 15:41:27,899: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 15:41:27,902: INFO: main: *******************]
+[2025-07-08 15:41:27,902: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 15:41:27,916: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 15:41:27,922: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 15:41:27,926: INFO: common: created directory at: artifacts]
+[2025-07-08 15:42:21,302: INFO: common: json file saved at: scores.json]
+[2025-07-08 15:42:21,304: INFO: common: json file saved at: scores.json]
+[2025-07-08 15:42:24,969: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 15:58:11,609: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 15:58:11,612: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 15:58:11,633: INFO: common: created directory at: artifacts]
+[2025-07-08 15:58:14,744: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 15:59:19,413: INFO: common: json file saved at: scores.json]
+[2025-07-08 16:01:14,418: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 16:01:14,426: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 16:01:14,426: INFO: common: created directory at: artifacts]
+[2025-07-08 16:01:17,351: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 16:02:16,911: INFO: common: json file saved at: scores.json]
+[2025-07-08 19:16:03,856: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:16:03,873: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:16:03,889: INFO: common: created directory at: artifacts]
+[2025-07-08 19:16:09,518: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 19:17:04,707: INFO: common: json file saved at: scores.json]
+[2025-07-08 19:17:32,929: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 19:17:47,897: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 19:17:47,897: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:17:47,912: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:17:47,912: INFO: common: created directory at: artifacts]
+[2025-07-08 19:17:47,912: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 19:17:47,912: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 19:18:03,652: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 19:18:08,768: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 19:18:08,768: INFO: main: *******************]
+[2025-07-08 19:18:08,768: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 19:18:08,783: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:18:08,783: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:18:08,783: INFO: common: created directory at: artifacts]
+[2025-07-08 19:18:08,799: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 19:18:09,964: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 19:18:10,842: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 19:18:12,884: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 19:18:15,084: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 19:18:15,084: INFO: main: *******************]
+[2025-07-08 19:18:15,084: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 19:18:15,100: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:18:15,100: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:18:15,100: INFO: common: created directory at: artifacts]
+[2025-07-08 19:18:15,100: INFO: common: created directory at: artifacts\training]
+[2025-07-08 19:18:19,397: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 19:18:20,044: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 19:20:38,044: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 19:20:38,044: INFO: main: *******************]
+[2025-07-08 19:20:38,044: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 19:20:38,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:20:38,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:20:38,075: INFO: common: created directory at: artifacts]
+[2025-07-08 19:21:22,785: INFO: common: json file saved at: scores.json]
+[2025-07-08 19:21:22,785: INFO: common: json file saved at: scores.json]
+[2025-07-08 19:21:27,965: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 19:38:55,557: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 19:39:07,761: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 19:39:07,764: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:39:07,777: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:39:07,780: INFO: common: created directory at: artifacts]
+[2025-07-08 19:39:07,780: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 19:39:07,780: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 19:39:25,087: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 19:39:27,359: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 19:39:27,359: INFO: main: *******************]
+[2025-07-08 19:39:27,359: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 19:39:27,367: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:39:27,367: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:39:27,375: INFO: common: created directory at: artifacts]
+[2025-07-08 19:39:27,375: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 19:39:28,514: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 19:39:29,365: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 19:39:30,582: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 19:39:31,445: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 19:39:31,453: INFO: main: *******************]
+[2025-07-08 19:39:31,453: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 19:39:31,462: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:39:31,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:39:31,469: INFO: common: created directory at: artifacts]
+[2025-07-08 19:39:31,469: INFO: common: created directory at: artifacts\training]
+[2025-07-08 19:39:35,491: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 19:39:36,013: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 19:41:46,394: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 19:41:46,394: INFO: main: *******************]
+[2025-07-08 19:41:46,397: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 19:41:46,413: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 19:41:46,422: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 19:41:46,430: INFO: common: created directory at: artifacts]
+[2025-07-08 19:42:27,798: INFO: common: json file saved at: scores.json]
+[2025-07-08 19:42:27,798: INFO: common: json file saved at: scores.json]
+[2025-07-08 19:42:33,868: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-08 20:29:33,661: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-08 20:29:45,478: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-08 20:29:45,488: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 20:29:45,495: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 20:29:45,495: INFO: common: created directory at: artifacts]
+[2025-07-08 20:29:45,495: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-08 20:29:45,495: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 20:30:02,552: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-08 20:30:04,611: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-08 20:30:04,614: INFO: main: *******************]
+[2025-07-08 20:30:04,614: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-08 20:30:04,616: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 20:30:04,616: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 20:30:04,616: INFO: common: created directory at: artifacts]
+[2025-07-08 20:30:04,616: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-08 20:30:06,513: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 20:30:07,396: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-08 20:30:08,711: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-08 20:30:10,208: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-08 20:30:10,208: INFO: main: *******************]
+[2025-07-08 20:30:10,208: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-08 20:30:10,225: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 20:30:10,244: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 20:30:10,244: INFO: common: created directory at: artifacts]
+[2025-07-08 20:30:10,258: INFO: common: created directory at: artifacts\training]
+[2025-07-08 20:30:14,019: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-08 20:30:14,618: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-08 20:32:31,861: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-08 20:32:31,861: INFO: main: *******************]
+[2025-07-08 20:32:31,861: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-08 20:32:31,877: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-08 20:32:31,894: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-08 20:32:31,894: INFO: common: created directory at: artifacts]
+[2025-07-08 20:33:15,293: INFO: common: json file saved at: scores.json]
+[2025-07-08 20:33:15,295: INFO: common: json file saved at: scores.json]
+[2025-07-08 20:33:21,295: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-09 10:51:00,698: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 10:51:00,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 10:51:00,715: INFO: common: created directory at: artifacts]
+[2025-07-09 10:51:04,220: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-09 10:51:44,687: INFO: common: json file saved at: scores.json]
+[2025-07-09 10:54:38,184: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-09 10:54:46,093: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-09 10:54:46,093: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 10:54:46,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 10:54:46,108: INFO: common: created directory at: artifacts]
+[2025-07-09 10:54:46,108: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-09 10:54:46,108: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-09 10:54:59,098: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-09 10:55:00,958: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-09 10:55:00,958: INFO: main: *******************]
+[2025-07-09 10:55:00,958: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-09 10:55:01,271: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 10:55:01,286: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 10:55:01,286: INFO: common: created directory at: artifacts]
+[2025-07-09 10:55:01,286: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-09 10:55:01,911: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-09 10:55:02,396: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-09 10:55:03,272: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-09 10:55:04,757: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-09 10:55:04,757: INFO: main: *******************]
+[2025-07-09 10:55:04,757: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-09 10:55:04,757: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 10:55:04,757: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 10:55:04,757: INFO: common: created directory at: artifacts]
+[2025-07-09 10:55:04,773: INFO: common: created directory at: artifacts\training]
+[2025-07-09 10:55:08,164: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-09 10:55:08,446: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-09 10:57:29,806: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-09 10:57:29,806: INFO: main: *******************]
+[2025-07-09 10:57:29,806: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-09 10:57:29,806: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 10:57:29,806: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 10:57:29,806: INFO: common: created directory at: artifacts]
+[2025-07-09 10:58:27,855: INFO: common: json file saved at: scores.json]
+[2025-07-09 10:58:27,855: INFO: common: json file saved at: scores.json]
+[2025-07-09 10:58:30,889: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-09 12:46:30,011: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-09 12:46:38,187: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-09 12:46:38,218: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 12:46:38,249: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 12:46:38,249: INFO: common: created directory at: artifacts]
+[2025-07-09 12:46:38,249: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-09 12:46:38,249: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-09 12:46:53,868: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-09 12:46:55,697: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-09 12:46:55,697: INFO: main: *******************]
+[2025-07-09 12:46:55,697: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-09 12:46:55,697: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 12:46:55,712: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 12:46:55,712: INFO: common: created directory at: artifacts]
+[2025-07-09 12:46:55,712: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-09 12:46:56,728: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-09 12:46:57,351: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-09 12:46:58,728: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-09 12:46:59,761: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-09 12:46:59,762: INFO: main: *******************]
+[2025-07-09 12:46:59,762: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-09 12:46:59,770: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 12:46:59,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 12:46:59,786: INFO: common: created directory at: artifacts]
+[2025-07-09 12:46:59,786: INFO: common: created directory at: artifacts\training]
+[2025-07-09 12:47:02,864: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-09 12:47:03,239: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-09 12:49:45,801: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-09 12:49:45,801: INFO: main: *******************]
+[2025-07-09 12:49:45,801: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-09 12:49:45,817: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-09 12:49:45,832: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-09 12:49:45,832: INFO: common: created directory at: artifacts]
+[2025-07-09 12:50:34,844: INFO: common: json file saved at: scores.json]
+[2025-07-09 12:50:34,844: INFO: common: json file saved at: scores.json]
+[2025-07-09 12:50:40,774: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-10 10:26:27,958: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 10:26:27,991: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 10:26:27,994: INFO: common: created directory at: artifacts]
+[2025-07-10 10:26:31,231: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 10:28:00,215: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 10:28:00,226: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 10:28:00,226: INFO: common: created directory at: artifacts]
+[2025-07-10 10:28:02,637: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 10:29:01,266: INFO: common: json file saved at: scores.json]
+[2025-07-10 10:35:50,097: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 10:36:02,621: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 10:36:02,621: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 10:36:02,637: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 10:36:02,637: INFO: common: created directory at: artifacts]
+[2025-07-10 10:36:02,637: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 10:36:02,637: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 10:36:16,947: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 10:36:19,370: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 10:36:19,370: INFO: main: *******************]
+[2025-07-10 10:36:19,370: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 10:36:19,370: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 10:36:19,385: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 10:36:19,385: INFO: common: created directory at: artifacts]
+[2025-07-10 10:36:19,385: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 10:36:20,449: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 10:36:21,261: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 10:36:23,217: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 10:36:24,171: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 10:36:24,171: INFO: main: *******************]
+[2025-07-10 10:36:24,171: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 10:36:24,171: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 10:36:24,186: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 10:36:24,186: INFO: common: created directory at: artifacts]
+[2025-07-10 10:36:24,186: INFO: common: created directory at: artifacts\training]
+[2025-07-10 10:36:28,220: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 10:36:28,845: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 10:38:38,124: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 10:38:38,140: INFO: main: *******************]
+[2025-07-10 10:38:38,140: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 10:38:38,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 10:38:38,155: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 10:38:38,155: INFO: common: created directory at: artifacts]
+[2025-07-10 10:39:23,749: INFO: common: json file saved at: scores.json]
+[2025-07-10 10:39:23,764: INFO: common: json file saved at: scores.json]
+[2025-07-10 10:39:31,807: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-10 11:09:28,904: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 11:09:36,108: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 11:09:36,108: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:09:36,124: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:09:36,124: INFO: common: created directory at: artifacts]
+[2025-07-10 11:09:36,124: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 11:09:36,124: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:09:51,400: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:09:53,823: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 11:09:53,823: INFO: main: *******************]
+[2025-07-10 11:09:53,823: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 11:09:53,854: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:09:53,870: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:09:53,870: INFO: common: created directory at: artifacts]
+[2025-07-10 11:09:53,870: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 11:09:54,685: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:09:55,091: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 11:09:56,577: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 11:09:58,889: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 11:09:58,889: INFO: main: *******************]
+[2025-07-10 11:09:58,889: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 11:09:58,904: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:09:58,904: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:09:58,904: INFO: common: created directory at: artifacts]
+[2025-07-10 11:09:58,904: INFO: common: created directory at: artifacts\training]
+[2025-07-10 11:10:01,382: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 11:10:01,876: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:12:16,658: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 11:12:16,658: INFO: main: *******************]
+[2025-07-10 11:12:16,658: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 11:12:16,674: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:12:16,674: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:12:16,674: INFO: common: created directory at: artifacts]
+[2025-07-10 11:13:02,430: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:13:02,430: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:13:05,447: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 66, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-10 11:27:44,016: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 11:27:51,385: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 11:27:51,393: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:27:51,398: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:27:51,399: INFO: common: created directory at: artifacts]
+[2025-07-10 11:27:51,400: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 11:27:51,401: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:28:04,506: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:28:05,794: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 11:28:05,794: INFO: main: *******************]
+[2025-07-10 11:28:05,794: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 11:28:05,799: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:28:05,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:28:05,804: INFO: common: created directory at: artifacts]
+[2025-07-10 11:28:05,805: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 11:28:06,395: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:28:06,649: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 11:28:07,576: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 11:28:08,225: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 11:28:08,225: INFO: main: *******************]
+[2025-07-10 11:28:08,226: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 11:28:08,231: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:28:08,234: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:28:08,235: INFO: common: created directory at: artifacts]
+[2025-07-10 11:28:08,236: INFO: common: created directory at: artifacts\training]
+[2025-07-10 11:28:10,185: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 11:28:10,427: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:30:41,976: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 11:30:41,977: INFO: main: *******************]
+[2025-07-10 11:30:41,978: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 11:30:41,988: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:30:41,993: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:30:41,994: INFO: common: created directory at: artifacts]
+[2025-07-10 11:31:30,658: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:31:30,660: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:31:33,661: ERROR: main: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "C:\Users\kavya\Kidney-Disease-Classification-Deep-Learning-Project\main.py", line 55, in <module>
+    model_evalution.main()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 21, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\kavya\kidney-disease-classification-deep-learning-project\src\cnnClassifier\components\model_evaluation_mlflow.py", line 64, in log_into_mlflow
+    with mlflow.start_run():
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\fluent.py", line 446, in start_run
+    active_run_obj = client.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 418, in create_run
+    return self._tracking_client.create_run(experiment_id, start_time, tags, run_name)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\tracking\_tracking_service\client.py", line 170, in create_run
+    return self.store.create_run(
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 220, in create_run
+    response_proto = self._call_endpoint(CreateRun, req_body)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\store\tracking\rest_store.py", line 90, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 402, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 265, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/runs/create failed with error code 403 != 200. Response body: ''
+[2025-07-10 11:36:24,546: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:36:24,557: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:36:24,561: INFO: common: created directory at: artifacts]
+[2025-07-10 11:36:27,360: WARNING: module_wrapper: From c:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 11:37:29,918: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:39:44,624: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 11:39:50,522: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 11:39:50,528: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:39:50,533: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:39:50,533: INFO: common: created directory at: artifacts]
+[2025-07-10 11:39:50,533: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 11:39:50,533: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:40:02,934: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:40:04,059: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 11:40:04,059: INFO: main: *******************]
+[2025-07-10 11:40:04,059: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 11:40:04,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:40:04,075: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:40:04,075: INFO: common: created directory at: artifacts]
+[2025-07-10 11:40:04,075: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 11:40:04,701: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:40:04,904: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 11:40:05,763: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 11:40:06,310: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 11:40:06,310: INFO: main: *******************]
+[2025-07-10 11:40:06,310: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 11:40:06,326: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:40:06,326: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:40:06,326: INFO: common: created directory at: artifacts]
+[2025-07-10 11:40:06,326: INFO: common: created directory at: artifacts\training]
+[2025-07-10 11:40:08,561: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 11:40:08,890: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:42:33,169: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 11:42:33,169: INFO: main: *******************]
+[2025-07-10 11:42:33,169: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 11:42:33,193: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:42:33,198: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:42:33,202: INFO: common: created directory at: artifacts]
+[2025-07-10 11:43:22,271: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:43:22,271: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:44:50,376: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-10 11:46:07,400: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 11:46:13,564: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 11:46:13,564: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:46:13,580: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:46:13,580: INFO: common: created directory at: artifacts]
+[2025-07-10 11:46:13,580: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 11:46:13,580: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:46:26,763: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 11:46:27,747: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 11:46:27,747: INFO: main: *******************]
+[2025-07-10 11:46:27,747: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 11:46:27,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:46:27,763: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:46:27,763: INFO: common: created directory at: artifacts]
+[2025-07-10 11:46:27,763: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 11:46:28,388: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:46:28,608: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 11:46:29,373: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 11:46:29,842: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 11:46:29,842: INFO: main: *******************]
+[2025-07-10 11:46:29,842: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 11:46:29,858: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:46:29,858: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:46:29,858: INFO: common: created directory at: artifacts]
+[2025-07-10 11:46:29,858: INFO: common: created directory at: artifacts\training]
+[2025-07-10 11:46:31,764: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 11:46:31,998: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 11:48:56,692: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 11:48:56,692: INFO: main: *******************]
+[2025-07-10 11:48:56,692: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 11:48:56,720: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 11:48:56,724: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 11:48:56,724: INFO: common: created directory at: artifacts]
+[2025-07-10 11:49:45,450: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:49:45,450: INFO: common: json file saved at: scores.json]
+[2025-07-10 11:51:14,256: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-10 12:14:12,192: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 12:14:18,820: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 12:14:18,820: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:14:18,835: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:14:18,851: INFO: common: created directory at: artifacts]
+[2025-07-10 12:14:18,851: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 12:14:18,851: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 12:14:30,877: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 12:14:32,065: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 12:14:32,065: INFO: main: *******************]
+[2025-07-10 12:14:32,065: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 12:14:32,080: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:14:32,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:14:32,080: INFO: common: created directory at: artifacts]
+[2025-07-10 12:14:32,080: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 12:14:32,784: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 12:14:33,018: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 12:14:33,911: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 12:14:34,458: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 12:14:34,458: INFO: main: *******************]
+[2025-07-10 12:14:34,458: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 12:14:34,458: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:14:34,458: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:14:34,458: INFO: common: created directory at: artifacts]
+[2025-07-10 12:14:34,458: INFO: common: created directory at: artifacts\training]
+[2025-07-10 12:14:36,334: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 12:14:36,584: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 12:19:01,146: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 12:19:01,146: INFO: main: *******************]
+[2025-07-10 12:19:01,146: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 12:19:01,167: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:19:01,174: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:19:01,177: INFO: common: created directory at: artifacts]
+[2025-07-10 12:19:47,978: INFO: common: json file saved at: scores.json]
+[2025-07-10 12:19:47,978: INFO: common: json file saved at: scores.json]
+[2025-07-10 12:21:11,994: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-10 12:23:21,705: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 12:23:27,145: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 12:23:27,145: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:23:27,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:23:27,160: INFO: common: created directory at: artifacts]
+[2025-07-10 12:23:27,160: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 12:23:27,160: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 12:23:41,016: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 12:23:42,143: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 12:23:42,143: INFO: main: *******************]
+[2025-07-10 12:23:42,143: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 12:23:42,143: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:23:42,143: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:23:42,159: INFO: common: created directory at: artifacts]
+[2025-07-10 12:23:42,159: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 12:23:42,690: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 12:23:42,877: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 12:23:43,598: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 12:23:44,035: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 12:23:44,035: INFO: main: *******************]
+[2025-07-10 12:23:44,035: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 12:23:44,051: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:23:44,051: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:23:44,051: INFO: common: created directory at: artifacts]
+[2025-07-10 12:23:44,051: INFO: common: created directory at: artifacts\training]
+[2025-07-10 12:23:45,958: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 12:23:46,301: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 12:30:36,544: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 12:30:36,544: INFO: main: *******************]
+[2025-07-10 12:30:36,544: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 12:30:36,560: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 12:30:36,560: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 12:30:36,560: INFO: common: created directory at: artifacts]
+[2025-07-10 12:31:22,025: INFO: common: json file saved at: scores.json]
+[2025-07-10 12:31:22,041: INFO: common: json file saved at: scores.json]
+[2025-07-10 12:32:50,190: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
