@@ -40,9 +40,14 @@ def trainRoute():
 @cross_origin()
 def predictRoute():
     image = request.json['image']
-    decodeImage(image, clApp.filename)
-    result = clApp.classifier.predict()
+    filename = "inputImage.jpg"
+    decodeImage(image, filename)
+    
+    # Create new PredictionPipeline object with the latest image
+    prediction = PredictionPipeline(filename)
+    result = prediction.predict()
     return jsonify(result)
+
 
 
 if __name__ == "__main__":
