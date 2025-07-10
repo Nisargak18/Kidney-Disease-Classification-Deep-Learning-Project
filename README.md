@@ -62,7 +62,7 @@ mlflow ui
 
 MLFLOW_TRACKING_URI="https://dagshub.com/Nisargak18/Kidney-Disease-Classification-Deep-Learning-Project.mlflow"
 MLFLOW_TRACKING_USERNAME="Nisargak18"
-MLFLOW_TRACKING_PASSWORD="35077698ffec5dd67e020903ca86c21fecbb921b"
+MLFLOW_TRACKING_PASSWORD="mlflow-token"
 python script.py
 
 Run this to export as env variables:
@@ -73,4 +73,10 @@ export MLFLOW_TRACKING_USERNAME=Nisargak18
 
 export MLFLOW_TRACKING_PASSWORD=
 '''
+
+### DVC cmd
+'''
+1.dvc init
+2.dvc repro
+3.dvc dag '''
 
