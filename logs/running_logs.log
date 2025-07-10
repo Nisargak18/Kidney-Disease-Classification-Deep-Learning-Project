@@ -2948,3 +2948,51 @@ x==========x]
 [2025-07-10 15:10:42,501: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 15:10:42] "POST /predict HTTP/1.1" 200 -]
 [2025-07-10 15:10:58,794: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
 ]
+[2025-07-10 15:11:13,283: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 15:11:13,295: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 15:11:13,295: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 15:11:13,295: INFO: common: created directory at: artifacts]
+[2025-07-10 15:11:13,311: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 15:11:13,311: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 15:11:25,280: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 15:11:27,427: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 15:11:27,427: INFO: main: *******************]
+[2025-07-10 15:11:27,427: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 15:11:27,427: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 15:11:27,427: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 15:11:27,427: INFO: common: created directory at: artifacts]
+[2025-07-10 15:11:27,427: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 15:11:28,510: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 15:11:29,273: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 15:11:30,398: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 15:11:31,102: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 15:11:31,103: INFO: main: *******************]
+[2025-07-10 15:11:31,103: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 15:11:31,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 15:11:31,116: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 15:11:31,117: INFO: common: created directory at: artifacts]
+[2025-07-10 15:11:31,119: INFO: common: created directory at: artifacts\training]
+[2025-07-10 15:11:34,389: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 15:11:35,054: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 15:17:14,293: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 15:17:14,293: INFO: main: *******************]
+[2025-07-10 15:17:14,293: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 15:17:14,308: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 15:17:14,324: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 15:17:14,324: INFO: common: created directory at: artifacts]
+[2025-07-10 15:18:10,507: INFO: common: json file saved at: scores.json]
+[2025-07-10 15:18:10,508: INFO: common: json file saved at: scores.json]
+[2025-07-10 15:18:10,508: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-10 15:18:15,805: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 15:18:15] "GET /train HTTP/1.1" 200 -]
