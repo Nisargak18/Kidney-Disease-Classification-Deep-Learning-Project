@@ -2927,3 +2927,18 @@ x==========x]
 [2025-07-10 14:57:08,629: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-07-10 15:02:00,268: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 15:02:02,940: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.104.233:8080]
+[2025-07-10 15:02:02,940: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-07-10 15:02:18,145: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 15:02:18] "GET / HTTP/1.1" 200 -]
+[2025-07-10 15:02:41,026: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 15:02:41,089: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 15:02:44,265: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 15:02:44] "POST /predict HTTP/1.1" 200 -]
+[2025-07-10 15:04:26,617: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 15:04:26] "POST /predict HTTP/1.1" 200 -]
+[2025-07-10 15:05:22,256: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 15:05:22] "POST /predict HTTP/1.1" 200 -]
