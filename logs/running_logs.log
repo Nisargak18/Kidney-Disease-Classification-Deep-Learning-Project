@@ -3121,3 +3121,66 @@ x==========x]
 ]
 [2025-07-10 17:06:01,839: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 17:06:01] "POST /predict HTTP/1.1" 200 -]
 [2025-07-10 17:06:29,098: INFO: _internal: 127.0.0.1 - - [10/Jul/2025 17:06:29] "POST /predict HTTP/1.1" 200 -]
+[2025-07-10 19:07:27,359: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 19:07:39,908: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-07-10 19:07:39,970: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 19:07:40,002: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 19:07:40,002: INFO: common: created directory at: artifacts]
+[2025-07-10 19:07:40,017: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-07-10 19:07:40,017: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 19:08:03,782: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-07-10 19:08:05,814: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-07-10 19:08:05,814: INFO: main: *******************]
+[2025-07-10 19:08:05,814: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2025-07-10 19:08:05,814: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 19:08:05,832: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 19:08:05,832: INFO: common: created directory at: artifacts]
+[2025-07-10 19:08:05,832: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-07-10 19:08:06,737: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\backend.py:1398: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 19:08:07,411: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\layers\pooling\max_pooling2d.py:161: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+]
+[2025-07-10 19:08:08,882: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-07-10 19:08:09,694: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-07-10 19:08:09,710: INFO: main: *******************]
+[2025-07-10 19:08:09,710: INFO: main: >>>>>> stage Training started <<<<<<]
+[2025-07-10 19:08:09,710: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 19:08:09,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 19:08:09,710: INFO: common: created directory at: artifacts]
+[2025-07-10 19:08:09,725: INFO: common: created directory at: artifacts\training]
+[2025-07-10 19:08:12,981: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\utils\tf_utils.py:492: The name tf.ragged.RaggedTensorValue is deprecated. Please use tf.compat.v1.ragged.RaggedTensorValue instead.
+]
+[2025-07-10 19:08:13,434: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\engine\base_layer_utils.py:384: The name tf.executing_eagerly_outside_functions is deprecated. Please use tf.compat.v1.executing_eagerly_outside_functions instead.
+]
+[2025-07-10 19:13:44,014: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-07-10 19:13:44,029: INFO: main: *******************]
+[2025-07-10 19:13:44,029: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-07-10 19:13:44,045: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-07-10 19:13:44,061: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-07-10 19:13:44,061: INFO: common: created directory at: artifacts]
+[2025-07-10 19:14:37,533: INFO: common: json file saved at: scores.json]
+[2025-07-10 19:14:37,533: INFO: common: json file saved at: scores.json]
+[2025-07-10 19:14:37,533: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-07-10 19:19:29,039: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 19:19:31,430: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.104.233:8080]
+[2025-07-10 19:19:31,430: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2025-07-10 19:20:35,594: WARNING: module_wrapper: From C:\Users\kavya\miniconda3\envs\kidney\lib\site-packages\keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+]
+[2025-07-10 19:20:37,690: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.104.233:8080]
+[2025-07-10 19:20:37,690: INFO: _internal: [33mPress CTRL+C to quit[0m]

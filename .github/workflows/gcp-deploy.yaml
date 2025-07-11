@@ -1,0 +1,37 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v1
+        with:
+          project_id: kidney-classifier
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          export_default_credentials: true
+
+      - name: Build Docker image
+        run: |
+          docker build -t gcr.io/kidney-classifier/kidney-predictor .
+
+      - name: Push to Google Container Registry
+        run: |
+          docker push gcr.io/kidney-classifier/kidney-predictor
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy kidney-predictor \
+            --image gcr.io/kidney-classifier/kidney-predictor \
+            --platform managed \
+            --region asia-south1 \
+            --allow-unauthenticated
