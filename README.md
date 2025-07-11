@@ -75,8 +75,84 @@ export MLFLOW_TRACKING_PASSWORD=
 '''
 
 ### DVC cmd
-'''
+
 1.dvc init
 2.dvc repro
-3.dvc dag '''
+3.dvc dag 
 
+
+### About MLflow & DVC
+ ## MLflow
+
+Its Production Grade
+Trace all of your expriements
+Logging & taging your model
+
+## DVC
+
+Its very lite weight for POC only
+lite weight expriements tracker
+It can perform Orchestration (Creating Pipelines)
+
+
+
+### GCP-CICD-Deployment-with-Github-Actions
+
+## 1. Login to AWS console.
+
+## 2.Prerequisites
+A Google Cloud project.
+
+Dockerfile present in your project root.
+
+GitHub repository connected to this project.
+
+Enabled Cloud Run API on GCP.
+
+GitHub Secrets configured:
+
+GCP_PROJECT_ID – your GCP project ID.
+
+GCP_REGION – your deployment region (e.g., us-central1).
+
+GCP_SA_KEY – service account JSON key (as a string)
+
+## 3. Setting Up Secrets
+# In Google Cloud Console:
+
+Go to IAM & Admin → Service Accounts.
+
+Create a service account named github-cicd.
+
+Assign the roles:
+
+Cloud Run Admin
+
+Storage Admin
+
+Artifact Registry Writer
+
+Viewer
+
+Generate a JSON key and download it.
+
+## 4.In GitHub repo:
+
+Go to Settings → Secrets → Actions.
+
+Add the following secrets:
+
+GCP_PROJECT_ID
+
+GCP_REGION
+
+GCP_SA_KEY (contents of the JSON key)
+
+
+
+### GitHub Actions Workflow
+.github/workflows/gcp-deploy.yml
+
+
+### Final
+https://kidney-predictor-100626608651.us-central1.run.app/
