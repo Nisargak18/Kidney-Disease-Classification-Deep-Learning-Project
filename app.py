@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 import os
+import threading
 from flask_cors import CORS, cross_origin
 from cnnClassifier.utils.common import decodeImage
 from cnnClassifier.pipeline.prediction import PredictionPipeline
@@ -27,12 +28,15 @@ def home():
 
 
 
+def run_training():
+    os.system("python main.py")
+
 @app.route("/train", methods=['GET','POST'])
 @cross_origin()
 def trainRoute():
-    os.system("python main.py")
-    # os.system("dvc repro")
-    return "Training done successfully!"
+    thread = threading.Thread(target=run_training)
+    thread.start()
+    return "Training started in the background!"
 
 
 

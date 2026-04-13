@@ -1,0 +1,4 @@
+- Fixed DVC path mismatches, solved the prediction API model path bug, added threading to the train route, and cleaned up unused research artifacts - 12:44:13
+- Completed a comprehensive UI modernization overhaul, rebranding the app as RenalVision AI with Glassmorphism, animations, and visual result badges - 14:27:38
+- Wrote a professional, GitHub-ready README.md including an architecture diagram, problem statement, and detailed MLOps explanations - 14:31:15
+- Purged raw JSON response data from the UI to streamline the user interface and fixed CSS linting warnings - 14:34:02
